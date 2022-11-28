@@ -14,6 +14,7 @@ function destructivelyPrependCat(name){
  function destructivelyPrependCat(name){
     cats;
     console.log(cats.unshift(name))
+    
  }
  destructivelyPrependCat.unshift("Bob");
  function destructivelyRemoveLastCat(name){
